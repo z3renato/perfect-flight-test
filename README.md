@@ -16,7 +16,8 @@ $ npm install
 ## Running the app
 
 First, set the enviroment variables on `.env.sample` (only for dev)
-To run in production, copy file `.env.sample`, rename it to .env and replace the fields.
+<br>
+To run in production, copy file `.env.sample`, rename it to `.env` and replace the fields.
 
 ```bash
 # development
