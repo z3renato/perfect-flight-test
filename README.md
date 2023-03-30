@@ -6,7 +6,9 @@ API to register users based on github profile info, using sqlite3 database and N
 
 Import file `postman_collection.json` on Postman to get tests requests.
 
+## Prerequisites
 
+`nodejs ^16` 
 ## Installation
 
 ```bash
