@@ -9,9 +9,7 @@ import { GithubModule } from './github/github.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
-      envFilePath: [
-        `${process.env.NODE_ENV == 'dev' ? '.env.sample' : '.env.prod'}`,
-      ],
+      envFilePath: ['.env.sample'],
     }),
     TypeOrmModule.forRoot({
       type: 'sqlite',
